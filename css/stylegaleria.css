@@ -1,0 +1,1738 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a.navbar-brand img {
+    max-width: 20%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #ccc;
+}
+
+header {
+    width: 100%;
+}
+
+.jumbotron1 {
+    width: 100%;
+    color: white;
+}
+
+nav li a {
+    font-size: 20px;
+}
+
+li.nav-item.flaga {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.nav-link.flaga {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+}
+
+a.nav-link.flaga img {
+    width: 50%;
+}
+
+.jumbotron1 {
+    width: 100%;
+    color: white;
+}
+
+.jumbotron.jumbo1 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron.jumbo1 h2 {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.jumbotron.jumbo1 h2 img {
+    width: 10%;
+}
+
+h2.title-jumbo1 {
+    margin-bottom: 100px;
+}
+
+button.jumbo1 {
+    display: block;
+    margin: 100px auto 10px;
+    border: 4px solid black;
+    padding: 15px 45px;
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.jumbotron-bg.jumbo1 {
+    position: absolute;
+
+    background-image: url("../assets/images/spawacz.jpg");
+    background-size: cover;
+
+    background-position: bottom;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div.gallerys {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+
+div.photo {
+    position: relative;
+    transition: 1s;
+    padding: 20px;
+}
+
+div.photo span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+div.photo:hover span::before {
+    display: block;
+}
+
+span::before {
+    content: "";
+    position: absolute;
+
+    background-image: url("../assets/images/lupa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    display: none;
+}
+
+
+.footer1 {
+    background-color: #003c6b;
+    padding-bottom: 20px;
+}
+
+.adress1 h4 {
+    color: #2ea3f2;
+    margin: 80px 0 20px 0;
+    font-size: 20px;
+}
+
+.adress1 p {
+    color: #7ea8cb;
+    font-size: 15px;
+}
+
+.adress2 h4 {
+    color: #2ea3f2;
+    margin: 80px 0 20px 0;
+    font-size: 20px;
+}
+
+.adress3 h4 {
+    color: #2ea3f2;
+    margin: 80px 0 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.adress3 input {
+    border-radius: 0;
+    background-color: rgb(95, 135, 175);
+    margin: 10px 0;
+    width: 300px;
+}
+
+.adress3 textarea {
+    width: 300px;
+
+}
+
+.adress3 input:focus {
+    background-color: rgb(95, 135, 175);
+}
+
+.adress3 textarea {
+    background-color: rgb(95, 135, 175);
+    margin: 10px 0;
+}
+
+::-webkit-input.form-control-placeholder {
+    color: #7ea8cb;
+}
+
+:-moz-placeholder {
+    color: #7ea8cb;
+}
+
+::-moz-placeholder {
+    color: #7ea8cb;
+}
+
+:-ms-input.form-control-placeholder {
+    color: #7ea8cb;
+}
+
+input.form-control::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #7ea8cb;
+}
+
+input.form-control:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #7ea8cb;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -2px 10px 0 0;
+    vertical-align: middle;
+    background: rgb(95, 135, 175);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+input[type="checkbox"]:checked+label span {
+    background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+}
+
+label {
+    color: #7ea8cb;
+    font-size: 14px;
+}
+
+footer.second {
+    background-color: #021751;
+    padding: 20px;
+}
+
+footer.second p {
+    color: #0b65ba;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 1220px) {
+    a.navbar-brand img {
+        max-width: 18%;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 50px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 12%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 18px;
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 12px;
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 18px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 300px;
+    }
+
+    .adress3 textarea {
+        width: 300px;
+        height: 100px;
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 10px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 20px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media(max-width: 1030px) {
+    a.navbar-brand img {
+        max-width: 18%;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 40px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 10%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 20px;
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 15px;
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 20px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 250px;
+    }
+
+    .adress3 textarea {
+        width: 250px;
+
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 14px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 20px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media(max-width: 993px) {
+    a.navbar-brand img {
+        max-width: 16%;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 40px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 10%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer1 div.container {
+        padding: 0 5px;
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 14px;
+
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 10px;
+
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 14px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 240px;
+    }
+
+    .adress3 textarea {
+        width: 240px;
+        height: 80px;
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 10px;
+    }
+
+    footer button.btn {
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 20px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    /* navigacja */
+    a.navbar-brand img {
+        max-width: 10%;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 30px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 12%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer1 div.container {
+        padding: 0 5px;
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    footer div.row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer div.col-md-4 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress2 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress3 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 24px;
+
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 20px;
+
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 24px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 600px;
+    }
+
+    .adress3 textarea {
+        width: 600px;
+        height: 80px;
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 15px;
+    }
+
+    footer button.btn {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 20px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media(max-width: 768px) {
+    .navbar div.container {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 80%;
+    }
+
+    a.navbar-brand img {
+        max-width: 10%;
+    }
+
+    button.navbar-toggler {
+        font-size: 18px;
+        padding: 4px 8px;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 30px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 12%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer1 div.container {
+        padding: 0 5px;
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    footer div.row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer div.col-md-4 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress2 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress3 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 22px;
+
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 16px;
+
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 22px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 400px;
+    }
+
+    .adress3 textarea {
+        width: 400px;
+        height: 80px;
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 13px;
+    }
+
+    footer button.btn {
+        font-size: 18px;
+        padding: 4px 10px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 20px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media(max-width: 479px) {
+    .navbar div.container {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 80%;
+    }
+
+    a.navbar-brand img {
+        max-width: 18%;
+    }
+
+    button.navbar-toggler {
+        font-size: 18px;
+        padding: 4px 8px;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 25px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 12%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer1 div.container {
+        padding: 0 5px;
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    footer div.row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer div.col-md-4 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    footer div.maps {
+        max-width: 80%;
+    }
+
+    .adress1 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress2 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress3 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 50px 0 20px 0;
+        font-size: 20px;
+
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 14px;
+
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 20px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 250px;
+    }
+
+    .adress3 textarea {
+        width: 250px;
+        height: 80px;
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 10px;
+    }
+
+    footer button.btn {
+        font-size: 16px;
+        padding: 4px 10px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 20px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .navbar div.container {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 80%;
+    }
+
+    a.navbar-brand img {
+        max-width: 20%;
+    }
+
+    button.navbar-toggler {
+        font-size: 18px;
+        padding: 4px 8px;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 12%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer1 div.container {
+        padding: 0 5px;
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    footer div.row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    footer div.col-md-4 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    footer div.maps {
+        max-width: 60%;
+    }
+
+    div.maps iframe {
+        width: 180px;
+        height: 180px;
+    }
+
+    .adress1 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress2 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress3 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 16px;
+
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 10px;
+
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 16px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 180px;
+    }
+
+    .adress3 textarea {
+        width: 180px;
+        height: 80px;
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 9px;
+    }
+
+    footer button.btn {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 20px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media(max-width: 240px) {
+    .navbar div.container {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 80%;
+    }
+
+    a.navbar-brand img {
+        max-width: 40%;
+    }
+
+    button.navbar-toggler {
+        font-size: 18px;
+        padding: 4px 8px;
+    }
+
+    li.nav-item.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.nav-link.flaga {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+    }
+
+    a.nav-link.flaga img {
+        width: 40%;
+    }
+
+    .jumbo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jumbo1 div.container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.container h2.title-jumbo1 {
+        font-size: 18px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    div.container h2.title-jumbo1 img {
+        width: 12%;
+    }
+
+    .footer1 {
+        background-color: #003c6b;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer1 div.container {
+        padding: 0 5px;
+        margin: 0 10px;
+        max-width: 90%;
+    }
+
+    footer div.row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    footer div.col-md-4 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress2 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress3 {
+        flex: 0 1 auto;
+        max-width: 100%;
+    }
+
+    .adress1 h4 {
+        color: #2ea3f2;
+        margin: 80px 0 20px 0;
+        font-size: 18px;
+
+    }
+
+    .adress1 p {
+        color: #7ea8cb;
+        font-size: 12px;
+
+    }
+
+    .adress2 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 18px;
+    }
+
+    .adress3 h4 {
+        color: #2ea3f2;
+        margin: 40px 0 20px 0;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    div.maps iframe {
+        width: 150px;
+        height: 150;
+    }
+
+    .adress3 input {
+        border-radius: 0;
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+        width: 150px;
+    }
+
+    .adress3 textarea {
+        width: 150px;
+        height: 80px;
+    }
+
+    .adress3 input:focus {
+        background-color: rgb(95, 135, 175);
+    }
+
+    .adress3 textarea {
+        background-color: rgb(95, 135, 175);
+        margin: 10px 0;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    ::-moz-placeholder {
+        color: #7ea8cb;
+    }
+
+    :-ms-input-placeholder {
+        color: #7ea8cb;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]+label span {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        margin: -2px 10px 0 0;
+        vertical-align: middle;
+        background: rgb(95, 135, 175);
+        cursor: pointer;
+        border: 2px solid white;
+    }
+
+    input[type="checkbox"]:checked+label span {
+        background: url(../assets/images/fajkaczarna1.png) center no-repeat;
+    }
+
+    label {
+        color: #7ea8cb;
+        font-size: 9px;
+    }
+
+    footer button.btn {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    footer.second {
+        background-color: #021751;
+        padding: 16px;
+    }
+
+    footer.second p {
+        color: #0b65ba;
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+}
